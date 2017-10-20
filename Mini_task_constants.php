@@ -13,9 +13,9 @@ print "favourite Subject 2D animation.";
 ?>
 
 <?php
-$myfirst = "hello world ofcourse!";
-$firstNum = 6;
-$firstFloat = 12.5;
+$myfirst = "'My age add five years is ";
+$firstNum = 18;
+$firstFloat = 5;
 .
 echo $myfirst;
 echo "<br>";
@@ -23,5 +23,10 @@ echo $firstNum;
 echo "<br>";
 echo $firstFloat;
 ?>
+
+<?php
+  $browser = $_SERVER['HTTP_USER_AGENT'];
+  echo"Your Browser Is: $browser";
+  ?>
 </BODY>
 </HTML>
