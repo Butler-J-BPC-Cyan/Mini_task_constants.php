@@ -6,9 +6,12 @@ Mini_task
 </HEAD>
 
 <BODY>
-<h1>
-Jack Butler, favourite Subject 2D animation.
-</h1>
+<?php
+print "<h2>Jack</h2>";
+print "Butler<br>";
+print "favourite Subject 2D animation.";
+?>
+
 <?php
 $myfirst = "hello world ofcourse!";
 $firstNum = 6;
